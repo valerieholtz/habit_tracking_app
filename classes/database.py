@@ -55,8 +55,8 @@ class Database:
         Create the necessary database tables.
 
         Creates two tables:
-        - `habits`: Stores habit information.
-        - `completions`: Logs the completion dates of habits.
+        - habits: Stores habit information.
+        - completions: Logs the completion dates of habits.
 
         Args:
         - None
@@ -116,7 +116,7 @@ class Database:
         """
         Log the completion of a habit.
 
-        Adds a record in the `completions` table with the current date.
+        Adds a record in the completions table with the current date.
 
         Args:
         - name (str): The name of the habit being completed.
@@ -151,8 +151,8 @@ class Database:
         """
         Delete a habit from the database.
 
-        Removes the habit from the `habits` table and its associated records
-        from the `completions` table.
+        Removes the habit from the habits table and its associated records
+        from the completions table.
 
         Args:
         - name (str): The name of the habit to delete.
@@ -200,7 +200,7 @@ class Database:
         """
         Get the last completion date for a habit.
 
-        Fetches the most recent completion date from the `completions` table.
+        Fetches the most recent completion date from the completions table.
 
         Args:
         - name (str): The name of the habit.
