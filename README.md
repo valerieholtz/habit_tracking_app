@@ -17,7 +17,7 @@ The application is built using Python and SQLite, making it lightweight and easi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/habit-tracking-app.git
+   git clone https://github.com/valerieholtz/habit-tracking-app.git
    cd habit-tracking-app
    ```
 
