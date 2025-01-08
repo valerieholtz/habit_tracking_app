@@ -4,7 +4,7 @@ from classes.database import Database
 
 
 class TestAnalysis:
-    """Test suite for the Analysis class using pytest."""
+    """Test suite for the Analysis class using pytest and testing the code functionality based on the provided test_habit.db test database."""
 
     @pytest.fixture(autouse=True)
     def setup_and_teardown(self):
