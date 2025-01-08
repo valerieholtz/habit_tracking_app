@@ -47,12 +47,12 @@ class TestAnalysis:
 
         # Assertions for coding
         assert "coding" in streaks
-        assert streaks["coding"]["current_streak"] == 0  # Should have a streak
+        assert streaks["coding"]["current_streak"] == 0  # Shouldn't have a streak
         assert streaks["coding"]["longest_streak"] >= streaks["coding"]["current_streak"]
 
         # Assertions for cooking
         assert "cooking" in streaks
-        assert streaks["cooking"]["current_streak"] == 0  # Should have a streak
+        assert streaks["cooking"]["current_streak"] == 0  # Shouldn't have a streak
         assert streaks["cooking"]["longest_streak"] >= streaks["cooking"]["current_streak"]
 
     def test_broken_habits(self):
