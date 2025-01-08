@@ -57,7 +57,7 @@ python main.py
    - Identify broken habits with incomplete streaks.
 
 6. **Predefined Habits**: 
-   - The habit tracker has 5 predefined habits that you can view in "Analyze habit performance".
+   - The habit tracker has 5 predefined habits with 4 weeks test data that you can view in "Analyze habit performance".
 
 ---
 
