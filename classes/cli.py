@@ -11,8 +11,8 @@ class CLI:
     Defines a command-line interface for user interaction and program flow management.
 
     This class handles the main application flow, allowing users to create, track,
-    edit, delete, and analyze habits. It integrates with the `Habit`, `Database`,
-    and `Analysis` classes for backend functionality.
+    edit, delete, and analyze habits. It integrates with the Habit, Database,
+    and Analysis classes for backend functionality.
     """
 
     def __init__(self):
@@ -20,8 +20,8 @@ class CLI:
         Initialize the CLI instance.
 
         Attributes:
-        - db (Database): An instance of the `Database` class for managing database operations.
-        - analysis (Analysis): An instance of the `Analysis` class for analyzing habits.
+        - db (Database): An instance of the Database class for managing database operations.
+        - analysis (Analysis): An instance of the Analysis class for analyzing habits.
         """
         self.db = Database()
         self.analysis = Analysis()
