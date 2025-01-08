@@ -14,7 +14,7 @@ class Analysis:
         Initialize the Analysis instance.
 
         Attributes:
-        - db (Database): An instance of the `Database` class for managing database operations.
+        - db (Database): An instance of the Database class for managing database operations.
         """
         self.db = Database()
 
